@@ -16,7 +16,7 @@ All you need is a domain and a crypto wallet.
 3. When DNS is configured – you're good to go!
 
 ## Architecture
-![](./assets/schema.jpg)
+![](https://raw.githubusercontent.com/renotion-xyz/.github/main/profile/assets/schema.jpg)
 
 ### Worker
 - Page-to-domain association is stored on the blockchain
