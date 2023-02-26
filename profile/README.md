@@ -15,6 +15,15 @@ All you need is a domain and a crypto wallet.
     - You will be asked to configure both CNAME and TXT (for domain verification and TLS certificate issuance)
 3. When DNS is configured – you're good to go!
 
+## Roadmap
+
+- [ ] Allow to set custom metadata for pages  
+  Set title, description, other SEO attributes
+- [ ] Allow to add custom scripts  
+  Will be useful to be able to add analytics
+- [ ] Allow to add multiple pages for one domain (on different paths)
+- [ ] Allow global style updates
+
 ## Architecture
 ![](https://raw.githubusercontent.com/renotion-xyz/.github/main/profile/assets/schema.jpg)
 
