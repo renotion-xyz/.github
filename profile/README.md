@@ -1,4 +1,4 @@
-# Renotion
+# ![](https://raw.githubusercontent.com/renotion-xyz/.github/main/profile/assets/logo32.png) Renotion
 
 Renotion allows you to wrap your Notion Page with a long url as a custom domain.
 
