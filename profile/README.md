@@ -25,7 +25,15 @@ All you need is a domain and a crypto wallet.
 - [ ] Allow global style updates
 
 ## Architecture
-![](https://raw.githubusercontent.com/renotion-xyz/.github/main/profile/assets/schema.jpg)
+```mermaid
+flowchart TB
+    yd([your-domain.com])-- CNAME -->abc{{abc.renotion.xyz}}-->cf
+    w3-->be[[api.renotion.xyz\nbackend]]-- Assert -->saas[Cloudflare SaaS]
+    cf[[Cloudflare Worker]]-- Lookup -->sc
+    cf-- Wrap -->nt[\your-domain.notion.so/Page...\]
+    saas-. TLS custom domain .-abc
+    w3([renotion.xyz\nweb3-app])-- Register -->sc[[Smart contract]]-->pb[(Polygon\nBlockchain)]
+```
 
 ### Worker
 - Page-to-domain association is stored on the blockchain
